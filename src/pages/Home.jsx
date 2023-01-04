@@ -5,6 +5,7 @@ import Categories, { levels } from "../Categories";
 import { toast } from "react-toastify";
 import ErrorMessage from "../ErrorMessage";
 
+
 const Home = ({ name, setName, getData }) => {
   const [value, setValue] = useState("default");
   const [valuee, setValuee] = useState("default");
@@ -94,7 +95,7 @@ const Home = ({ name, setName, getData }) => {
             <button>Start Quiz</button>
           </form>
         </div>
-        <img className="image" src="src/assets/img1.jpg" alt="..." />
+        <img className="image" src="src/pages/img.jpg" alt="...."/>
 
         {/* <Link to="/">Home</Link> */}
       </div>

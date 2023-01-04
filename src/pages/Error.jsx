@@ -5,11 +5,14 @@ import Home from "./Home";
 const Error = () => {
   const navigate = useNavigate();
   useEffect(() => {
+    setTimeout(()=>{
     navigate("/");
+     
+    },350);
   }, []);
   return (
     <>
-      <div>Error</div>
+      <div className="errorrr">Error Occurred!!!!!</div>
     </>
   );
 };
